@@ -17,3 +17,5 @@ If you will leave search field at the home screen or input some random letters y
 
 ![image](https://user-images.githubusercontent.com/56874600/142665053-1c70d086-9414-4fa8-b519-edd1f3ace408.png)
 
+And here is API which I have used for this app:
+https://dictionaryapi.dev/
