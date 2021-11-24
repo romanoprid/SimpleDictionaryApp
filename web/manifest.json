@@ -1,6 +1,6 @@
 {
-    "name": "dictionary",
-    "short_name": "dictionary",
+    "name": "jokes_app",
+    "short_name": "jokes_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

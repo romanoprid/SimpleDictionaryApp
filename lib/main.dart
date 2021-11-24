@@ -1,26 +1,21 @@
-import 'package:dictionary/components/home_screen.dart';
-import 'package:dictionary/repo/word_repo.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'bloc/dictionary_cubit.dart';
+import 'package:jokes_app/components/home_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.blue,
       ),
-      home: BlocProvider(
-        child: HomeScreen(),
-        create: (context) => DictionaryCubit(WordRepository()),
-      ),
+      home: const HomeScreen(),
     );
   }
 }

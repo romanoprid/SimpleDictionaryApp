@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dictionary">
+    package="com.example.jokes_app">
    <application
-        android:label="dictionary"
+        android:label="jokes_app"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
